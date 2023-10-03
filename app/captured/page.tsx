@@ -1,0 +1,15 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Pokedex App - Captured",
+  description: "This is the page where you can see your favorite pokemons",
+};
+export default function CapturedPage() {
+  return (
+    <main className="max-w-[1366px] mx-auto pt-[100px] p-6">
+      <Link href={"/"}>Voltar</Link>
+      <div>Captured Pege</div>
+    </main>
+  );
+}
